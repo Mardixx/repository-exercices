@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    max-width: 100%;
+}
+header.banner__top{
+    display: flex;
+    align-items: center;
+}
+section.banner__style{
+    background: url(../img/nakimeinfinitycastle.jpg);
+    background-size: cover;
+    padding: 1.5625rem;
+    height: 45vh;
+    margin: 0;
+}
+header img{
+    width: 25rem;
+}
+nav.nav li {
+    color: white;
+    font-weight:bolder;
+    text-shadow: black 2px 2px;
+}
+a{
+    text-decoration: none;
+}
+nav.nav{
+    list-style-type: none;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 200px;
+    width: 300px;
+    justify-content: space-evenly;
+}
+html{
+    background: #312b57;
+
+}
+li i{
+    color: black;
+}
+/*Kokushibo*/
+div.first{
+  border: 1px solid orange;
+  width: 32.9%;
+  height: auto;
+  display: inline-flex;
+}
+div.first img.kokushibo{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.first img.kokushibo:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Doma*/
+div.second{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.second img.doma{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.second img.doma:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Akaza*/
+div.third{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.third img.akaza{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.third img.akaza:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Hantengu*/
+div.fourth{
+  border: 1px solid orange;
+  width: 32.9%;
+  height: auto;
+  display: inline-flex;
+}
+div.fourth img.hantengu{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.fourth img.hantengu:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Gyokko*/
+div.fifth{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.fifth img.gyokko{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.fifth img.gyokko:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Daki et Gyutaro*/
+div.sixth{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.sixth img.dakigyutaro{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.sixth img.dakigyutaro:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Enmu*/
+div.seventh{
+    border: 1px solid orange;
+    width: 32.9%;
+    height: auto;
+    display: inline-flex;
+  }
+  div.seventh img.enmu{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+  div.seventh img.enmu:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Rokuro*/
+div.eighth{
+      border: 1px solid orange;
+      width: 33%;
+      height: auto;
+      display: inline-flex;
+      margin: 0;
+  }
+div.eighth img.rokuro{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+div.eighth img.rokuro:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Wakuraba*/
+div.ninth{
+      border: 1px solid orange;
+      width: 33%;
+      height: auto;
+      display: inline-flex;
+      margin: 0;
+  }
+div.ninth img.wakuraba{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+div.ninth img.wakuraba:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+div.tenth{
+    border: 1px solid orange;
+    width: 32.9%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.tenth img.mukago{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.tenth img.mukago:hover{
+  transform : scale(1.1, 1.1);
+  transition: transform 0.3s linear;
+}
+div.eleventh{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.eleventh img.rui{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.eleventh img.rui:hover{
+  transform : scale(1.1, 1.1);
+  transition: transform 0.3s linear;
+}
+/*Kamanue*/
+div.twelfth{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.twelfth img.kamanue{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.twelfth img.kamanue:hover{
+  transform : scale(1.1, 1.1);
+  transition: transform 0.3s linear;
+}

@@ -1,0 +1,36 @@
+#nichirin{
+    background-color: teal;
+    position: absolute;
+    width: 110%;
+    height: 4.375rem;
+    border: none;
+    margin-top: 40% ;
+    left: 70%;
+    cursor: pointer;
+    border-radius: 20%;
+    color: white;
+}
+#nichirinprice{
+    margin-top: 48%;
+    left: 160%;
+    position: absolute; 
+    color: white;
+}
+#technique{
+    background-color: teal;
+    position: absolute;
+    width: 110%;
+    height: 4.375rem;
+    border: none;
+    margin-top: 70%;
+    left: 70%;
+    cursor: pointer;
+    border-radius: 20%;
+    color: white;
+}
+#techniqueprice{
+    margin-top: 78%;
+    left: 160%;
+    position: absolute; 
+    color: white;
+}

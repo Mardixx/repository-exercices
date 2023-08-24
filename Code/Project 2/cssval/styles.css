@@ -1,0 +1,589 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+body {
+    margin:0;
+    background-repeat: no-repeat;
+    background: black url(../images/bg.png) no-repeat;
+    background-size: cover;   
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+header.header img {
+    width: 300px;
+    position: absolute;
+    top: 2.1rem;
+    left: 1rem;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 50px;
+    
+
+}
+
+.demon img{
+    /* border: solid orange; */
+    width: 200px;
+    position: absolute;
+    right: 83rem;
+    top : 1.5rem;
+}
+
+/*Bouton du Monde des humain*/
+.buttonun{
+    color: white;
+    border: solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    transition-duration: 0.7s;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    font-size: larger;
+
+}
+
+.buttonun:hover{
+    background-color: blue;
+    transition-duration: 0.4s;
+    
+}
+/* Bouton de la Soul Society */
+.buttondeux{
+    color: white;
+    border: solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    transition-duration: 0.7s;
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    font-size: larger;
+
+}
+
+.buttondeux:hover{
+    background-color: blue;
+    transition-duration: 0.4s;
+    
+}
+/*Bouton Du Heuco Mundo*/
+.buttontrois{
+    color: white;
+    border: solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    transition-duration: 0.7s;
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    font-size: larger;
+
+}
+
+.buttontrois:hover{
+    background-color: blue;
+    transition-duration: 0.4s;
+    
+}
+/*Bouton du Wandereich*/
+.buttonquatre{
+    color: white;
+    border: solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    transition-duration: 0.7s;
+    position: absolute;
+    top: 250px;
+    left: 720px;
+    font-size: larger;
+
+}
+
+.buttonquatre:hover{
+    background-color: blue;
+    transition-duration: 0.4s;
+    
+}
+.syno{
+    /* border: solid;
+    border-color: red; */
+    color: #e66333;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    font-size: 70px;
+    text-decoration: underline;
+}
+.synop{
+    color: white;
+    box-sizing: border-box;
+    max-width: 70rem;
+    position: absolute;
+    top:500px;
+    left: 70px;
+    font-size: 1.6rem;
+    text-shadow:gray 0px 1.5px;
+    border: 1px solid;
+    padding: 7px;
+    border-color: gray;
+}
+/* Village et personnage de Karakura */
+.karakura{
+      /* border: solid;
+    border-color: red; */
+    color: #e96e41;
+    position: absolute;
+    top: 56.25rem;
+    left: 21.875rem;
+    font-size: 70px;
+    text-decoration: underline;
+
+}
+
+.ichigo{
+    position: absolute;
+    top: 70rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+.ichigo:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.ishida{
+    position: absolute;
+    top: 70rem;
+    left: 27rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ishida:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.orihime{
+    position: absolute;
+    top: 70rem;
+    left: 48rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.orihime:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.chad{
+    position: absolute;
+    top: 95rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.chad:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.urahara{
+    position: absolute;
+    top: 95rem;
+    left: 27rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.urahara:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.ryuken{
+    position: absolute;
+    top: 95rem;
+    left: 48rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ryuken:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.desc{
+    color: #e66333;
+    position: absolute;
+    top:70rem;
+    left: 92rem;
+    text-decoration: underline;
+
+}
+
+.village{
+    color: white;
+    position: absolute;
+    top:72rem;
+    left: 78rem;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    max-width: 100%;
+    min-width: 30vw;
+    height: auto;
+  
+    
+}
+
+.histoiretitle{
+    color: #e66333;
+    position: absolute;
+    top:81rem;
+    left: 93.2rem;
+    text-decoration: underline;
+}
+.histoire{
+    color: white;
+    position: absolute;
+    top:84rem;
+    left: 78rem;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 30vw;
+    height: auto;
+}
+/*Histoire et personnage de la SoulSociety*/
+.soultitle{
+    /* border: solid;
+  border-color: red; */
+  color: #e96e41;
+  position: absolute;
+  top: 118.75rem;
+  left: 28.125rem;
+  font-size: 70px;
+  text-decoration: underline;
+
+}
+
+/*1er Division*/
+.yamamoto{
+    position: absolute;
+    top: 130rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.yamamoto:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.kyoraku{
+    position: absolute;
+    top: 130rem;
+    left: 26rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.kyoraku:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*2eme Division*/
+.soifon{
+    position: absolute;
+    top: 130rem;
+    left: 46rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.soifon:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+/*3eme Division*/
+.rojuro{
+    position: absolute;
+    top: 155rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.rojuro:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*4eme Division*/
+.unohana{
+    position: absolute;
+    top: 155rem;
+    left: 26rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.unohana:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*5eme Division*/
+.shinji{
+    position: absolute;
+    top: 155rem;
+    left: 46rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shinji:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.aizen{
+    position: absolute;
+    top: 230rem;
+    left: 26rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.aizen:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*6eme Division*/
+.byakuya{
+    position: absolute;
+    top: 180rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.byakuya:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*7eme Division*/
+.sajin{
+    position: absolute;
+    top: 180rem;
+    left: 26rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sajin:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*9eme Division*/
+.kensei{
+    position: absolute;
+    top: 180rem;
+    left: 46rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.kensei:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*10eme Division*/
+.toshiro{
+    position: absolute;
+    top: 205rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.toshiro:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*11eme Divison*/
+.kenpachi{
+    position: absolute;
+    top: 205rem;
+    left: 26rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.kenpachi:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*12eme Division*/
+.mayuri{
+    position: absolute;
+    top: 205rem;
+    left: 46rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.mayuri:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*13eme Division*/
+.jushiro{
+    position: absolute;
+    top: 230rem;
+    left: 6rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.jushiro:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+/*Vice capitaines*/
+.sasakibe{
+    position: absolute;
+    top: 130rem;
+    left: 69rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sasakibe:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.kira{
+    position: absolute;
+    top: 130rem;
+    left: 90rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.kira:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.renji{
+    position: absolute;
+    top: 155rem;
+    left: 69rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.renji:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.nanao{
+    position: absolute;
+    top: 155rem;
+    left: 90rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nanao:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.shuhei{
+    position: absolute;
+    top: 180rem;
+    left: 69rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shuhei:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.rangiku{
+    position: absolute;
+    top: 180rem;
+    left: 90rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.rangiku:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.ikkaku{
+    position: absolute;
+    top: 205rem;
+    left: 69rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ikkaku:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.yumichika{
+    position: absolute;
+    top: 205rem;
+    left: 90rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.yumichika:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.rukia{
+    position: absolute;
+    top: 230rem;
+    left: 69rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.rukia:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+.hidetomo{
+    position: absolute;
+    top: 230rem;
+    left: 90rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hidetomo:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}
+
+.akon{
+    position: absolute;
+    top: 230rem;
+    left: 46rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.akon:hover{
+    transform: scale(1.07, 1.04);
+    transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.health-bar {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #333;
+  background-color: #d90c0c;
+  overflow: hidden;
+}
+
+.health {
+  height: 100%;
+  background-color: #4CAF50;
+}

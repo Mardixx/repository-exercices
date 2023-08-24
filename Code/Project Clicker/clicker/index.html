@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="../clicker/css/design.css">
+    <link rel="stylesheet" href="../clicker/css/tanjiro.css">
+    <link rel="stylesheet" href="../clicker/css/nezuko.css">
+    <link rel="stylesheet" href="../clicker/css/upgrade.css">
+</head>
+    <body>
+        <section class="money">
+            <img src="../clicker/img/YenLogo.png" alt="">
+            <h1 id="moneycount">: 0</h1> 
+        </section>
+        <section class="upgrades">
+            <img src="../clicker/img/parchemin.png" alt="">
+            <button id="nichirin" class="nichirin" onmousedown="scaledownbtn(), moneycount()" onmouseup="upscalebtn(), buy(), moneyreturn()">Nichirin : 0 </button>
+            <p id="nichirinprice">Yen : 5</p>
+            <button id="technique" class="technique" onmousedown="scaledownbtn2(), moneycount2()" onmouseup="upscalebtn2(), buy2(), moneyreturn2()">Techniques : 0 </button>
+            <p id="techniqueprice">Yen : 5</p>
+        </section>
+        <section class="levels">
+            <button id="tanjiro" class="tanjiro" onclick="levelreturn()"><img src="../clicker/img/tanjirohead.png" alt=""></button>
+            <button id="nezukohead" class="nezuko" onclick="levelchange(), dps2()"><img src="../clicker/img/Nezukohead2.png" alt=""></button>
+        </section>
+        <section class="enemy">
+            <button id="damage" class="enemies" onclick="moneyadd(), dead()" onmouseup="decreaseHealth()" onmousedown="deathcounter(), levelappear()"><img id="enemies" src="../clicker/img/tanjiro.png" alt="" onmousedown="scaledown()" onmouseup="upscale()"></button>
+            <button id="damage2" class="enemies2" onclick="moneyadd2(), dead2()" onmouseup="decreaseHealth2()" onmousedown="deathcounter(), levelappear()"><img id="enemies2" src="../clicker/img/Nezuko.png" alt="" onmousedown="scaledown2()" onmouseup="upscale2()"></button>
+        </section>
+        <section class="healthbar">
+            <div class="nohealth">
+                <div class="hp"></div> 
+            </div>
+            <!-- <img id="_1hp" src="../clicker/img/greensquarepng.png">
+            <img id="nohealth" src="../clicker/img/redsquare.jpg"> -->
+            <h1 id="health">10</h1>
+            <h1 id="healthfull">/10</h1>
+            <!-- <img id="_1hp2" src="../clicker/img/greensquarepng.png">
+            <img id="nohealth2" src="../clicker/img/redsquare.jpg"> -->
+            <div id="nohealth2">
+                <div id="hp2"></div>
+            </div>
+            <h1 id="health2">20</h1>
+            <h1 id="health2full">/20</h1>
+        </section>
+        <script src="../clicker/scripts/tanjiro.js"></script>
+        <script src="../clicker/scripts/nezuko.js"></script>
+        <script src="../clicker/scripts/upgrades.js"></script>
+        <script src="../clicker/scripts/levels.js"></script>
+    </body>
+</html>

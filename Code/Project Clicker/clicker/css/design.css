@@ -1,0 +1,130 @@
+html{
+    background-image: url(../img/DSbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.money{
+    /* border: 1px solid orange; */
+    height: 4.375rem;
+    width: 31.25rem;
+    left: 8rem;
+    top: 1.25rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.money img{
+    width: auto;
+    height: 2.5625rem;
+    padding: .8125rem;
+    display: inline;
+    margin: 0;
+}
+.money h1{
+    display: inline;
+    left: 4.375rem;
+    top: .1875rem;
+    position: absolute;
+}
+.upgrades{
+    /* border: 1px solid orange; */
+    height: auto;
+    width: 20%;
+    position: absolute;
+    left: 1.875rem;
+    top: 7rem;
+    /* background-image: url(../img/stars.jpg); */
+}
+.upgrades img{
+    width: 160%;
+    position: absolute;
+    margin-left: 45%;
+}
+.enemy{
+    /* border: 1px solid orange; */
+    position: absolute;
+    left: 60rem;
+    top: 12rem;
+    width: 50rem;
+    height: 45rem;
+   
+}
+.levels{
+    left: 69rem;
+    top: 1.25rem;
+    position: absolute;
+    height: 7rem;
+    width: 33rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1.25rem;
+}
+.enemies{
+    position: absolute;
+    left: 18.125rem;
+    top: 6.25rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid black;
+    cursor: pointer;
+}
+.enemies2{
+    position: absolute;
+    left: 13.75rem;
+    top: 6.25rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid black;
+    cursor: pointer;
+    visibility: hidden;
+}
+.healthbar #health{
+    color: red;
+    display: inline;
+    top: 20%;
+    position: absolute;
+}
+.healthbar #healthfull{
+    color: red;
+    display: inline;
+    top: 20%;
+    left: 9%;
+    position: absolute;
+}
+.healthbar #health2{
+    color: red;
+    display: inline;
+    top: 20%;
+    visibility: hidden;
+}
+.healthbar #health2full{
+    color: red;
+    display: inline;
+    top: 20%;
+    left: 9%;
+    visibility: hidden;
+}
+.tanjiro{
+    border-radius: 9.375rem;
+    left: .625rem;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.nezuko{
+    border-radius: 9.375rem;
+    left: 8.125rem;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    visibility: hidden;
+}
+.healthbar{
+    width: 15rem;
+    height: 10rem;
+    top: 30rem;
+    position: absolute;
+    left: 58rem;
+}

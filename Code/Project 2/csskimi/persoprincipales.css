@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    max-width: 100%;
+}
+header.banner__top{
+    display: flex;
+    align-items: center;
+}
+section.banner__style{
+    background: url(../img/persoprincipalesbanner.jpg);
+    background-size: cover;
+    padding: 25px;
+    height: 45vh;
+    margin: 0;
+    padding-bottom: 10%;
+}
+header img{
+    width: 400px;
+}
+nav.nav li {
+    color: white;
+    font-weight:bolder;
+    text-shadow: black 2px 2px;
+}
+a{
+    text-decoration: none;
+}
+nav.nav{
+    list-style-type: none;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 200px;
+    width: 300px;
+    justify-content: space-evenly;
+}
+html{
+    background: #312b57;
+
+}
+li i{
+    color: black;
+}
+/*Tanjiro*/
+div.first{
+  width: 33%;
+  height: auto;
+  display: inline-flex;
+  margin-left: 250px;
+}
+div.first img.tanjiro{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+    border-radius: 15% 15% 15% 15%;
+}
+div.first img.tanjiro:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Nezuko*/
+div.second{
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.second img.nezuko{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+    border-radius: 15% 15% 15% 15%;
+}
+div.second img.nezuko:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Zenitsu*/
+div.third{
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.third img.zenitsu{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+    border-radius: 15% 15% 15% 15%;
+}
+div.third img.zenitsu:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Inosuke*/
+div.fourth{
+  width: 33%;
+  height: auto;
+  display: inline-flex;
+}
+div.fourth img.inosuke{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+    border-radius: 15% 15% 15% 15%;
+}
+div.fourth img.inosuke:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Genya*/
+div.fifth{
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.fifth img.genya{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+    border-radius: 15% 15% 15% 15%;
+}
+div.fifth img.genya:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}

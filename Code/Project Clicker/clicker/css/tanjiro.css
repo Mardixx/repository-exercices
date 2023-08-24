@@ -1,0 +1,12 @@
+.nohealth{
+    background-color: red;
+    width: 15rem;
+    height: 1rem;
+    /* margin-top: 12.5rem;  */
+}
+.nohealth .hp{
+    background-color: green;
+    width: 15rem;
+    height: 1rem;
+    position: absolute;
+}

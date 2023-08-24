@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    max-width: 100%;
+}
+header.banner__top{
+    display: flex;
+    align-items: center;
+}
+section.banner__style{
+    background: url(../img/tanjirobanner.jpg);
+    background-size: cover;
+    padding: 25px;
+    height: 45vh;
+    margin: 0;
+}
+header img{
+    width: 400px;
+}
+nav.nav li {
+    color: white;
+    font-weight:bolder;
+    text-shadow: black 2px 2px;
+}
+a{
+    text-decoration: none;
+}
+nav.nav{
+    list-style-type: none;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 200px;
+    width: 400px;
+    justify-content: space-evenly;
+}
+html{
+    background: #312b57;
+
+}
+/*Gyomei*/
+div.first{
+  border: 1px solid orange;
+  width: 33%;
+  height: auto;
+  display: inline-flex;
+}
+div.first img.gyomei{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    margin: 0%, 0%, 0%, 0%;
+    transition: transform 0.3s linear;
+}
+div.first img.gyomei:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Obanai*/
+div.second{
+    border: 1px solid orange;
+    width: 32.9%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.second img.obanai{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.second img.obanai:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Shinobu*/
+div.third{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.third img.shinobu{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.third img.shinobu:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Tokito*/
+div.fourth{
+  border: 1px solid orange;
+  width: 32.9%;
+  height: auto;
+  display: inline-flex;
+}
+div.fourth img.tokito{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.fourth img.tokito:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Rengoku*/
+div.fifth{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.fifth img.rengoku{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.fifth img.rengoku:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Tengen*/
+div.sixth{
+    border: 1px solid orange;
+    width: 33%;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+}
+div.sixth img.tengen{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s linear;
+}
+div.sixth img.tengen:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Mitsuri*/
+div.seventh{
+    border: 1px solid orange;
+    width: 32.9%;
+    height: auto;
+    display: inline-flex;
+  }
+  div.seventh img.mitsuri{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+  div.seventh img.mitsuri:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+/*Sanemi*/
+div.eighth{
+      border: 1px solid orange;
+      width: 33%;
+      height: auto;
+      display: inline-flex;
+      margin: 0;
+  }
+div.eighth img.sanemi{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+div.eighth img.sanemi:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}
+div.ninth{
+      border: 1px solid orange;
+      width: 33%;
+      height: auto;
+      display: inline-flex;
+      margin: 0;
+  }
+div.ninth img.giyuu{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 5/3;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s linear;
+  }
+div.ninth img.giyuu:hover{
+    transform : scale(1.1, 1.1);
+    transition: transform 0.3s linear;
+}

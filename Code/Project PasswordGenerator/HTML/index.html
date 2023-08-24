@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <input type="range" id="length" value="4" min="4" max="16" oninput="this.nextElementSibling.value = this.value">
+    <output>4</output>
+    <button class="GenPW">Generate</button>
+    <div>
+        <div id="pw_One" class="pw_Field"></div>
+    </div>
+    <div>    
+        <label class="Switch">
+            <input type="checkbox" class="Switch_input" id="checkbox" unchecked>
+            <span class="Slider"></span>
+        </label>
+    </div>
+    <div id="text">
+        <p>Toggle Letters And Symbols<span class="dots">:</span></p>
+        
+    </div>
+</body>
+<script src="../JS/index.js"></script>
+</html>
